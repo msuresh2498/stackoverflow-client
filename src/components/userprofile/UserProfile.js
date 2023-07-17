@@ -5,12 +5,11 @@ import moment from "moment";
 import LeftSidebar from "../../components/LeftSidebar/LeftSidebar";
 import Avatar from "../../components/Avatar/Avatar";
 import "./UserProfile.css";
-import axios from "axios";
 import { useContext, useEffect } from "react";
 import { API } from "../api";
 import { Link, useParams } from "react-router-dom";
 import { UserContext } from "../Auth/Authorization";
-axios.defaults.withCredentials = true;
+
 
 const UserProfile = () => {
     const { user, setUser } = useContext(UserContext);
