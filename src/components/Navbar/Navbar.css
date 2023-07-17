@@ -1,0 +1,84 @@
+.Nav {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    border-top: 3px solid #ef8236;
+    height: 50px;
+    box-shadow: 0px 1px 5px #00000033;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background-color: #f8f9f9;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 85%;
+}
+
+.nav-logo {
+    padding: 5px 25px;
+}
+
+.nav-item {
+    margin: 0px 3px;
+    font-size: small;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(69, 69, 69);
+    transition: 0.2s;
+}
+
+.nav-btn {
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.nav-item:hover {
+    background-color: rgb(213, 213, 213);
+}
+
+.navbar form input {
+    min-width: 90%;
+    margin: 0;
+    padding: 8px 10px 8px 32px;
+    font-size: 13px;
+    border: solid 1px #0000003e;
+    border-radius: 3px;
+}
+
+.navbar form {
+    flex-grow: 1;
+    padding: 0px 12px;
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    left: 32px;
+    top: 6px;
+}
+
+.nav-links {
+    padding: 7px 13px;
+    border: solid 1px blue;
+    border-radius: 3px;
+    background-color: #e7f8fe;
+    cursor: pointer;
+    color: rgb(31, 31, 89);
+}
+
+.nav-links:hover {
+    background-color: rgb(152, 213, 240);
+}
+
+.nav-account {
+    display: flex;
+    justify-content: space-around;
+}
