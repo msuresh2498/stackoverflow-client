@@ -15,6 +15,7 @@ const formValidationSchema = Yup.object({
 const Login = () => {
 
  const [user, setUser] = useState();
+ console.log(user);
     const navigate = useNavigate();
 
     const { handleBlur, handleChange, values, touched, errors, handleSubmit } = useFormik({

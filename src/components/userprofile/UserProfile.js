@@ -25,7 +25,7 @@ const UserProfile = () => {
             .then((data) => setUser(data))
             .catch((error) => console.error('Error fetching userdetails:', error));
 
-    }, [id])
+    }, [id, setUser])
 
     return (
         <div>
